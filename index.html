@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador Freenlancer</title>
+    <link rel="preload" href="css/styles.css" as="style" >
+    <link rel="stylesheet" href="css/styles.css" >
 </head>
 <body>
 
     <header>
-        <h1>David Sanchez Freelancer</h1>
+        <h1 class="titulo">David Sanchez <span>Freelancer</span>  </h1>
     </header>
 
 
@@ -20,7 +22,7 @@
     </nav>
 
     <section>
-        <h2>Diseño y Desarrollo Web Freenlancer</h2>
+        <h2 class="titulo">Diseño y Desarrollo Web Freenlancer</h2>
 
        
         <svg  xmlns="http://www.w3.org/2000/svg"  width="88"  height="88"  viewBox="0 0 24 24"  fill="none"  stroke="#FFC107"  
@@ -103,11 +105,33 @@
         <form>
             <fieldset>
                 <legend>Contactame llenando todos los campos</legend>
-                <label>Nombre</label>
-                <input type="text" placeholder="Nombre">
 
-                <label>Telefono</label>
-                <input type="tel" placeholder="Teléfono">
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Nombre">
+                </div>
+
+                <div>
+                    <label>Telefono</label>
+                    <input type="tel" placeholder="Teléfono">
+                </div>
+
+                <div>
+                    <label>Correo</label>
+                    <input type="email" placeholder="Correo">
+                </div>
+
+
+                <div>
+                    <label>Mensaje</label>
+                    <textarea></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+
+                
 
             </fieldset>
         </form>
